@@ -6,39 +6,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sugar Bakery</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/estilo.css">
 </head>
 
 <body>
     <header>
-        <div class="menu">
-            <a href="index.html" class="logo">Sugar Bakery</a>
-            <nav>
-                <ul>
-                    <li><a href="htmls/inicio.html" class="btn">INICIO</a></li>
-                    <li><a href="htmls/recetas.html" class="btn">RECETAS</a></li>
-                    <li><a href="htmls/nosotros.html"class="btn">NOSOTROS</a></li>
-                    <li><a href="htmls/contacto.html"class="btn">CONTACTO</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="header-index">
-            <div class="header-content">
-                <div class="texto-index">
-                    <p>¿TE INTERESA LA PASTELERIA?</p>
-                    <h1 class="logo">SUGAR BAKERY</h1>
-                    <h4>!Aprende todos los secretos de la pasteleria¡</h4>
-                    <a href="htmls/inicio.html" class="btn-index">COMIENZA</a>
+
+
+    </header>
+    <div class="content-index container-fluid text-center">
+        <div class="header-content">
+            <div class="texto-index text-center">
+                <p class="text-center">¿TE INTERESA LA PASTELERIA?</p>
+                <h1 class="logo">SUGAR BAKERY</h1>
+                <h4 class="text-center">Aprende todos los secretos de la pasteleria</h4>
+                <div class="container-buttons mt-3 container-fluid">
+                    <a href="htmls/inicio.html" class="btn btn-index">COMIENZA</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn  btn-index " data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        INICIAR SESION
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Inicio de sesion</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                          <label for="exampleInputEmail1" class="form-label">Email</label>
+                                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                                          <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Inicio de sesion</button>
+                                      </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
-
-    <div class="overlay"></div>
-    <!-- /*/le voy a agregar un overlay despues/*/ -->
+    </div>
+    </div>
     <div class="fondo-video">
         <video src="video/pexels-nicole-michalou-6138253.mp4" autoplay loop></video>
     </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

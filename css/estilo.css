@@ -1,41 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Galada&family=Sansita+Swashed:wght@300&display=swap');
-
-.logo {
+/*/FUENTE/*/
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Rye&family=Sansita+Swashed:wght@300&display=swap');
+/*/FIN DE FUENTE/*/
+/*/GENERALES/*/
+html{
+    font-size: 62,5%;
+    
+}
+body {
+    margin: 1rem;
+  
+    background-image: url(../img/fondo-de-pagina.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100vh;
+    
+}
+/*/FIN DE GENERALES/*/
+/*/NAV/*/
+.logo{
     font-family: 'Galada', cursive;
-    font-size: 50px;
+    font-family: 'Rye', cursive;
+    font-size: 2.8rem;
     text-decoration: none;
-    background-color: #1a1614;
-    color: rgb(255, 255, 255);
-    margin: 20px;
-    margin-left: 40px;
-
+    color: #000000;
+    background-color: #00000000;
+}
+.backgrounds-nav{
+    padding: 0;
+    background-color: rgba(195, 144, 125, 0.54);
+    
+}
+.contenedor-header{
+    position: relative;
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.nav-font{
+    font-family: 'Galada', cursive;
+    font-family: 'Rye', cursive;
+    font-size: 1.2rem;
 }
 
-.logofooter {
-    font-size: 60px;
-    text-align: start;
-    background-color: #ccc6b9;
-}
-
+/*/FIN DE NAV/*/
 /*/FOOTER/*/
 footer {
     background-color: #ccc6b9;
+    
 }
 
 .warp {
     display: flex;
     flex-direction: column;
-    padding: 80px;
+    padding: 8rem;
     justify-content: flex-end;
 }
 
 .contenedor-copy p {
-    font-size: 18px;
+    font-size: 1.8rem;
 
 }
 
 .contenedor-copy {
     border-bottom: 1px solid black;
+    
 }
 
 .redes {
@@ -43,103 +72,85 @@ footer {
     justify-content: center;
 }
 
-.redes a {
-    text-decoration: none;
-    margin: 15px;
-    border: solid black 2px;
-    padding: 5px;
+.redes a{
+    font-family: 'Galada', cursive;
+    font-family: 'Rye', cursive;
     color: #000000;
+    text-decoration: none;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    border: solid black 3px;
+    border-radius: 10%;
+
 }
 
 .links-footers {
-    margin: 30px 0px 0px 0px;
+    margin: 3rem 0rem 0rem 0rem;
 }
 
 .links-footers a {
     text-decoration: none;
     color: black;
-    margin: 20px;
+    margin: 2rem;
+    font-family: 'Galada', cursive;
+    font-family: 'Rye', cursive;
+    padding: 1.2rem;
+    
+    
 
 }
 
 .links-footers a:hover {
     border-top: 3px solid black;
 }
-
-/*/MENU/*/
-.menu {
-    display: flex;
-    flex-direction: row;
-    background-color: #1a1614;
-    z-index: 0;
-    
-}
-
-header {
-    position: sticky;
-    top: 0;
-    
-}
-
-.menu ul {
-    display: flex;
-    flex-direction: row;
-    
-}
-
-.menu ul li {
-    list-style-type: none;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.menu ul li a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-left: 150px;
-    border: #fff solid 2px;
-    padding: 10px;
-    font-size: 20px;
-    
-}
-
-/*/empiezo con el index/*/
-body {
-    margin: 0;
-}
-
-.fondo-video video {
+/*/FIN DE FOOTER/*/
+/*/INDEX/*/
+.fondo-video video{
     position: fixed;
-    top: 0;
-    right: 0;
+    
     min-width: 100%;
     min-height: 100%;
 
-    z-index: -1;
-}
+    top: 50%;
+    left: 50%;
 
+    transform: translateX(-50%) translateY(-50%);
+
+    z-index: -2;
+
+}
 .btn-index {
-    background: #000000;
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 1rem 2rem;
+    background: #8c0e0ecf;
+    border: #000000 solid black;
     text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    
 }
 
-.header-index {
+
+.content-index {
+    width: 50vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 20rem;
+    margin-top: 22rem;
 
+}
+.container-buttons{
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 .header-content {
-    padding: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
     border: #000000 solid 3px;
-
+    background-color: rgba(255, 244, 196, 0.883);
 }
 
 .texto-index {
@@ -148,35 +159,41 @@ body {
     justify-content: center;
 }
 
+
 .texto-index p {
-    padding-left: 15px;
-    font-size: 20px;
-
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
 }
-
-.texto-index h1 {
-    font-family: 'Galada', cursive;
-    font-size: 50px;
-    text-decoration: none;
-    color: #000000;
-    background-color: #00000000;
-}
-
 .texto-index h4 {
-    font-size: 20px;
+    font-size: 1.5rem;
 }
-
+/*/FIN DE INDEX/*/
 /*/INICIO/*/
-.imagen-fondo-de-menu{
-    display: flex;
-    z-index: -1;
-    background-image: url(../img/imagen-inicio.jpg);
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
+.img-carrousel{
+    height: 40rem;
+    object-fit: cover;
+
 }
-.imagen-fondo-de-menu .contenedor-de-imagen h2 {
+.carousel-item h5{
+    display: inline-block;
+    padding: 1.5rem;
+    background-color: #292929af;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+.carousel-item p{
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+.titulo-principal{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(67, 58, 58, 0.326) ;
+    border: solid 2px black;
+    margin: 1rem;
+    padding: 1rem;
+}
+.titulo-nav {
 
     position: absolute;
     top: 35%;
@@ -185,53 +202,31 @@ body {
     font-size: 200%;
     padding: 1%;
     background-color: black;
-
-
 }
-.imagen-fondo-de-menu .contenedor-de-imagen{
-    padding: 200px;
+.contenedor-de-imagen-inicio{
+    height: 20rem;
+    background-image: url(../img/imagen-inicio.jpg);
+    object-fit: cover;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    
 }
-
-.lista-imagenes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
+.position-relative{
+    position: relative;
 }
-
-.imagenes {
-    margin: 20px;
-    padding: 20px;
+.empresas h2{
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color:rgba(67, 58, 58, 0.164) ;
     border: solid 2px black;
-}
-
-.imagenes img {
-    width: 230px;
-    height: 200px;
-}
-
-.imagenes p {
-    text-transform: uppercase;
-    font-weight: bold;
-
-    border: #fff solid 2px;
-
-    font-size: 20px;
-}
-.center-align-titulo{
-    display: flex;
-    justify-content: center;
 }
 .empresas{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.empresas h2{
-    font-size: 30px;
-    padding: 15px;
-    border: solid 2px black;
 }
 .contenedor-de-empresas{
     display: flex;
@@ -246,35 +241,21 @@ body {
     height: 200px;
     object-fit: cover;
 }
-/*/RECETAS/*/
-.conteiner{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-}
-.contenedor-nombre{
-   margin: 35px 30px 0 10px;
-}
-
-.receta-imagen-nombre{
-    display: flex;
-    margin: 20px;
-    border: solid 5px black;
-}
-.receta-imagen-nombre img{
-    margin-top: 40px;
-    margin-left: 30px;
-    margin-bottom: 40px;
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-}
-
+/*/FIN DE INICIO/*/
 /*/NOSOTROS/*/
+.contenedor-de-imagen-nosotros{
+    height: 20rem;
+    background-image: url(../img/imagen-nosotros.jpg);
+    object-fit: cover;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
 .content{
     display: flex;
     flex-direction: column;
+    background-color: #a7ab8be3;
 }
 
 .contactanos{
@@ -292,76 +273,66 @@ body {
 .texto-nosotros p{
     font-size: 30px;
 }
-.btn{
-    border: solid 1px black;
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    font-size: 30px;
-    padding: 15px;
-}
+
+/*/FIN DE NOSOTROS/*/
 /*/CONTACTO/*/
-.imagen-fondo-de-sucursales{
-    display: flex;
-    z-index: -1;
-    background-image: url(../img/portada-sucursales.jpg);
+.contenedor-de-imagen-contacto{
+    height: 20rem;
+    background-image: url(../img/imagen-contacto.jpg);
+    object-fit: cover;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
-}
-.imagen-fondo-de-sucursales .contenedor-de-imagen-sucursales h2 {
-
-    position: absolute;
-    top: 35%;
-    left: 5%;
-    color: #fff;
-    font-size: 200%;
-    padding: 1%;
-    background-color: black;
-
-
-}
-.imagen-fondo-de-sucursales .contenedor-de-imagen-sucursales{
-    padding: 200px;
 }
 
 .contenedor-de-formulario{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    background-color: #e0daceb0;
     
 }
 .contenedor-de-formulario h3{
-    margin-top:40px;
-    font-size: 35px;
+    margin-top:4rem;
+    font-size: 2.5rem;
+    font-family: 'Galada', cursive;
+    font-family: 'Rye', cursive;
 }
 .contenedor-de-formulario h5{
-    font-size: 20px;
+    margin: 1rem;
+    font-size: 2rem;
 }
 .contenedor-de-formulario form{
     width: 45%;
     height: 45%;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 50px;
-    border: solid black 2px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 5rem;
+    border: solid black 3px;
+    border-radius: 10%;
 }
 form input{
-    margin: 0px 0px 50px 0px;    
+    margin: 0rem 0rem 5rem 0rem;   
+    background-color: #e0daceb0; 
+    border: solid black 2px;
+   
+}
+form textarea{
+    background-color: #e0daceb0;
+    border: solid black 2px;
+    
 }
 form label{
-    margin: 0px 0px 10px 0px;
-    font-size: 25px;
+    margin: 0rem 0rem 1rem 0rem;
+    font-size: 2.5rem;
 }
 .enviar{
-    margin: 20px 50px 0px 50px;
-    padding: 20px;
-    text-decoration: none;
-    background-color: black;
-    color: white
+    margin: 2rem 5rem 0rem 5rem;
+    padding: 2rem;
 }
 .contenedor-sucursales{
     display: flex;
@@ -374,12 +345,12 @@ form label{
     flex-direction: row;
     flex-wrap: wrap;
     border: #000000 solid 3px;
-    margin: 30px;
+    margin: 3rem;
 }
 .contenedor-sucursales ul li{
-    font-size: 20px;
-    margin: 10px;
-    padding: 4px;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 0.4rem;
     border-left: #000000 solid 2px;
 }
 
@@ -387,9 +358,54 @@ form label{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
-/*/HTMLS DE CADA RECETA/*/
+/*/FIN DE CONTACTO/*/
+/*/RECETAS/*/
+.contenedor-de-imagen-recetas{
+    height: 20rem;
+    background-image: url(../img/imagen-recetas.jpg);
+    object-fit: cover;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.contenedor-recetas{
+    background-color: #a3b58b82;
+    margin: 0rem;
+    border: solid black 1px;
+    
+}
+.item-recetas{
+    background-color: #785f2ea5;
+    width: 23.5rem;
+    margin: 2rem;
+    align-items: center;
+    border: solid black 3px;
+}
+.item-recetas img{
+    width: 24rem;
+    height: 16rem;
+    object-fit: cover;
+    padding: 2rem;
+    
+    object-position: 50%;
+}
+.item-recetas a{
+    text-decoration: none;
+}
+.item-recetas h5{
+    color: white;
+}
+.item-recetas h5:hover{
+    padding: 0.5rem;
+    background-color: white;
+    color: #000000;
+}
+
+/*/FIN DE RECETAS/*/
+/*/HTML DE LAS RECETAS INVIDUALES/*/
 .nombre-de-imagen img{
     margin-top: 40px;
     margin-left: 30px;
@@ -410,6 +426,7 @@ form label{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
 }
 .contenedor-imagen-y-calificacion{
@@ -417,27 +434,31 @@ form label{
     border: solid black 2px;
     padding-right: 120px;
     
+    
 
 }
+.contendor-receta-individual {
+    background-color: #e0dace;
+}
 .calificacion{
-    margin: 10px;
-    margin-top: 100px;
+    margin: 10rem;
+    margin-top: 10rem;
     margin-left: 20%;
 }
 .contenedor--ingredientes{
-    margin: 20px 2% 20px 2%;
-    font-size: 20px;
+    margin: 2rem 2% 2rem 2%;
+    font-size: 2rem;
 }
 .ingredientes h2{
-    font-size: 30px;
+    font-size: 3rem;
 }
 .contenedor-preparacion{
-    margin: 10px;
-    margin-top: 20px;
+    margin: 1rem;
+    margin-top: 2rem;
     margin-left: 2%;
 }
 .contenedor-preparacion h2{
-    font-size: 30px;
+    font-size: 3rem;
 }
 .pasos-preparacion{
     display: flex;
@@ -446,6 +467,66 @@ form label{
     margin-right: 10%;
 }
 .pasos-preparacion ol li{
-    margin: 10px;
-    font-size: 20px;
+    margin: 1rem;
+    font-size: 2rem;
 }
+
+/*/FIN DE RECETAS INDIVIDUALES/*/
+/*/SUCURSALES/*/
+.contenedor-de-imagen-sucursales{
+    height: 20rem;
+    background-image: url(../img/imagen-sucursales.jpg);
+    object-fit: cover;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.sucursales{
+    display: inline-block;
+    background-color: #baa37987;   
+    justify-content: center;
+    padding: 5rem;
+}
+.sucursales iframe{
+    width: 100%;
+    height: 30rem;
+    margin-top: 3.8rem;
+    border: solid black 3px;
+    border-radius: 5%; 
+    
+}
+.sucursales-ubicaciones{
+    padding: 1.5rem;
+    border: solid black 3px;
+    border-radius: 5%;
+}
+.sucursales-ubicaciones h2{
+    text-align: center;
+    margin-top: 3rem; 
+    font-size: 2.5rem; 
+    font-family: 'Galada', cursive;
+    font-family: 'Rye', cursive;
+
+}
+.item-sucursales{
+    font-size:1.4rem;
+    margin: 2rem;
+    list-style:circle;
+    border-bottom: #000000 solid 3px;
+    font-family: 'Galada', cursive;
+    font-family: 'Rye', cursive;
+    
+}
+/*/FIN DE SUCURSALES/*/
+/*/MEDIA/*/
+@media (max-width:800px) {
+    .container-buttons{
+        display: inline-block;
+    }
+    .btn-index{
+        margin-top: 0.5rem;
+    }
+    
+}
+/*/FIN DE MEDIA/*/

@@ -1,116 +1,138 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RECETAS-SUGAR BAKERY</title>
+    <title>Sugar Bakery-RECETAS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
-
-<body>
-    <header>
-        <div class="menu">
-            <a href="../index.html" class="logo">Sugar Bakery</a>
-            <nav>
-                <ul>
-                    <li><a href="inicio.html">INICIO</a></li>
-                    <li><a href="recetas.html">RECETAS</a></li>
-                    <li><a href="nosotros.html">NOSOTROS</a></li>
-                    <li><a href="contacto.html">CONTACTO</a></li>
+<body class="container-fluid">
+  <div class="container-fluid">
+    <header class="header ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary backgrounds-nav ">
+            <div class="container-fluid backgrounds-nav p-2">
+                <h1 class="logo">SUGAR BAKERY</h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link nav-font m-4 " aria-current="page" href="inicio.html">Inicio</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link nav-font m-4 active" href="recetas.html">Recetas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-font m-4" href="contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link nav-font m-4" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-font m-4" aria-current="page" href="sucursales.html">Sucursales</a>
+                  </li>
                 </ul>
-            </nav>
-        </div>
-
+              </div>
+            </div>
+          </nav>
     </header>
-    <div class="imagen-fondo-de-menu">
-        <div class="contenedor-de-imagen">
-            <img src="" alt="">
-            <h2>RECETAS</h2>
-        </div>
+    <div class="position-relative">
+      <div class="contenedor-de-imagen-recetas">
+        <h2 class="titulo-nav">RECETAS</h2>
+      </div>
     </div>
-    <div class="conteiner">
-        <div class="contenedor-de-recetas">
-            <div class="receta-imagen-nombre">
-                <a href="brownies.html"><img src="../img/brownies.jpg" alt=""></a>
-                <div class="contenedor-nombre">
-                    <h3>Brownies de chocolate</h3>
-                </div>
-                
-            </div>
-            <div class="receta-imagen-nombre">
-                <a href="cheesecake.html"><img src="../img/chesseckae..jpg" alt=""></a>
-                <div class="contenedor-nombre">
-                    <h3>Chesseckae</h3>
-                </div>
-            </div>
-            <div class="receta-imagen-nombre">
-                <a href="cookies.html"><img src="../img/cookies.jpg" alt=""></a>
-                <div class="contenedor-nombre">
-                    <h3>Cookies con chips de chocolate</h3>
-                </div>
-            </div>
+    <div class="contenedor-recetas row container-fluid">
+      <div class="card item-recetas">
+        <a href="../recetas/donas.html" class=""><img src="../img/donas.jpg" class="card-img-top" alt="Donas Glaseadas">
+        <div class="card-body">
+          <h5 class="card-title">Donas Glaseadas</h5>
+          </a>
         </div>
-        <div class="contenedor-de-recetas">
-            <div class="receta-imagen-nombre">
-                <a href="donas.html"><img src="../img/donas.jpg" alt=""></a>
-                <div class="contenedor-nombre">
-                    <h3>Donas Glaseadas</h3>
+      </div>
+      <div class="card item-recetas">
+        <a href="../recetas/macarrons.html" class=""><img src="../img/macarrons.jpg" class="card-img-top" alt="Macarrons">
+        <div class="card-body">
+          <h5 class="card-title">Macarrons</h5>
+          </a>
+        </div>
+      </div>
+      <div class="card item-recetas">
+        <a href="../recetas/chessecake.html" class=""><img src="../img/chesseckae..jpg" class="card-img-top" alt="chessecake">
+        <div class="card-body">
+          <h5 class="card-title">Chessecake de Frutillas</h5>
+          </a>
+        </div>
+      </div>
+      <div class="card item-recetas">
+        <a href="../recetas/brownies.html" class=""><img src="../img/brownies.jpg" class="card-img-top" alt="Brownies de Chocolate">
+        <div class="card-body">
+          <h5 class="card-title">Brownies de chocolate</h5>
+          </a>
+        </div>
+      </div>
+      <div class="card item-recetas">
+        <a href="../recetas/cookies.html" class=""><img src="../img/cookies.jpg" class="card-img-top" alt="Cookies con chips de chocolate">
+        <div class="card-body">
+          <h5 class="card-title">Cookies con chips de Chocolate</h5>
+          </a>
+        </div>
+      </div>
+      <div class="card item-recetas">
+        <a href="../recetas/muffins-de-chocolate.html" class=""><img src="../img/muffins-de-chocolate.jpg" class="card-img-top" alt="Muffins de Chocolate">
+        <div class="card-body">
+          <h5 class="card-title">Muffins de Chocolate</h5>
+          </a>
+        </div>
+      </div>
+      <div class="card item-recetas">
+        <a href="../recetas/pan-casero.html" class=""><img src="../img/pan-casero.jpg" class="card-img-top" alt="Pan Casero">
+        <div class="card-body">
+          <h5 class="card-title">Pan Casero</h5>
+          </a>
+        </div>
+      </div>
+      <div class="card item-recetas">
+        <a href="../recetas/pastafrola.html" class=""><img src="../img/pastafrola.jpg" class="card-img-top" alt="pastafrola">
+        <div class="card-body">
+          <h5 class="card-title">Pastafrola de Membrillo</h5>
+          </a>
+        </div>
+      </div>
+      <div class="card item-recetas">
+        <a href="../recetas/pastel-de-zanahoria.html" class=""><img src="../img/pastel-de-zanahoria.jpg" class="card-img-top" alt="Pastel de Zanahoria">
+        <div class="card-body">
+          <h5 class="card-title">Pastel de Zanahoria</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+    
 
-                </div>
-            </div>
-            <div class="receta-imagen-nombre">
-                <a href="macarons.html"><img src="../img/macarrons.jpg" alt=""></a>
-                <div class="contenedor-nombre">
-                    <h3>Macarrons</h3>
-                </div>
-            </div>
-            <div class="receta-imagen-nombre">
-                <a href="muffins.html"><img src="../img/muffins-de-chocolate.jpg" alt=""></a>
-                <div class="contenedor-nombre">
-                    <h3>Muffins de chocolate</h3>
-                </div>
-            </div>
-        </div>
-        <div class="contenedor-de-recetas">
-            <div class="receta-imagen-nombre">
-                <a href="pan-casero.html"><img src="../img/pan-casero.jpg" alt=""></a>
-                <div class="contenedor-nombre">
-                    <h3>Pan casero</h3>
-                </div>
-            </div>
-            <div class="receta-imagen-nombre">
-                <a href="pastafrola.html"><img src="../img/pastafrola.jpg" alt=""></a>
-                <div class="contenedor-nombre">
-                    <h3>Pastafrola</h3>
-                </div>
-            </div>
-            <div class="receta-imagen-nombre">
-                <a href="pastel-de-zanahoria.html"><img src="../img/pastel-de-zanahoria.jpg" alt=""></a>
-                <div class="contenedor-nombre">
-                    <h3>Pastel de zanahoria</h3>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <footer>
-        <div class="warp">
-            <a href="inicio.html" class="logo logofooter">Sugar Bakery</a>
-            <div class="contenedor-copy">
-                <p>Copyright © 2023 · Buenos Aires Sugar Bakery</p>
-            </div>
-            <h3>Seguinos en nuestras redes:</h3>
-            <div class="redes">
-                <a href="https://www.instagram.com/">Instagram</a>
-                <a href="https://www.facebook.com/">Facebook</a>
-            </div>
-            <div class="links-footers">
-                <a href="../htmls/nosotros.html">Sucursales</a>
-                <a href="../htmls/contacto.html">Contacto</a>
-            </div>
+      <div class="warp">
+        <a href="inicio.html" class="logo logofooter">Sugar Bakery</a>
+        <div class="contenedor-copy">
+          <p>Copyright © 2023 · Buenos Aires Sugar Bakery</p>
         </div>
+        <h3>Seguinos en nuestras redes:</h3>
+        <div class="redes">
+          <a href="https://www.instagram.com/">Instagram</a>
+          <a href="https://www.facebook.com/">Facebook</a>
+        </div>
+        <div class="links-footers">
+          <a href="nosotros.html">Sucursales</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+      </div>
     </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
 </body>
-
 </html>

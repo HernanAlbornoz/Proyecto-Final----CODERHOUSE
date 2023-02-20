@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Sansita+Swashed:wght@300&display=swap');
+
+.logo {
+    font-family: 'Galada', cursive;
+    font-size: 50px;
+    text-decoration: none;
+    background-color: #1a1614;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    margin-left: 40px;
+
+}
+
+.logofooter {
+    font-size: 60px;
+    text-align: start;
+    background-color: #ccc6b9;
+}
+
+/*/FOOTER/*/
+footer {
+    background-color: #ccc6b9;
+}
+
+.warp {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    justify-content: flex-end;
+}
+
+.contenedor-copy p {
+    font-size: 18px;
+
+}
+
+.contenedor-copy {
+    border-bottom: 1px solid black;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.redes a {
+    text-decoration: none;
+    margin: 15px;
+    border: solid black 2px;
+    padding: 5px;
+    color: #000000;
+}
+
+.links-footers {
+    margin: 30px 0px 0px 0px;
+}
+
+.links-footers a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+
+}
+
+.links-footers a:hover {
+    border-top: 3px solid black;
+}
+
+/*/MENU/*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    background-color: #1a1614;
+    z-index: 0;
+    
+}
+
+header {
+    position: sticky;
+    top: 0;
+    
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menu ul li {
+    list-style-type: none;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 150px;
+    border: #fff solid 2px;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+/*/empiezo con el index/*/
+body {
+    margin: 0;
+}
+
+.fondo-video video {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+    z-index: -1;
+}
+
+.btn-index {
+    background: #000000;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+.header-index {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20rem;
+
+}
+
+.header-content {
+    padding: 60px;
+    border: #000000 solid 3px;
+
+}
+
+.texto-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-index p {
+    padding-left: 15px;
+    font-size: 20px;
+
+}
+
+.texto-index h1 {
+    font-family: 'Galada', cursive;
+    font-size: 50px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #00000000;
+}
+
+.texto-index h4 {
+    font-size: 20px;
+}
+
+/*/INICIO/*/
+.imagen-fondo-de-menu{
+    display: flex;
+    z-index: -1;
+    background-image: url(../img/imagen-inicio.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.imagen-fondo-de-menu .contenedor-de-imagen h2 {
+
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    color: #fff;
+    font-size: 200%;
+    padding: 1%;
+    background-color: black;
+
+
+}
+.imagen-fondo-de-menu .contenedor-de-imagen{
+    padding: 200px;
+}
+
+.lista-imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.imagenes {
+    margin: 20px;
+    padding: 20px;
+    border: solid 2px black;
+}
+
+.imagenes img {
+    width: 230px;
+    height: 200px;
+}
+
+.imagenes p {
+    text-transform: uppercase;
+    font-weight: bold;
+
+    border: #fff solid 2px;
+
+    font-size: 20px;
+}
+.center-align-titulo{
+    display: flex;
+    justify-content: center;
+}
+.empresas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.empresas h2{
+    font-size: 30px;
+    padding: 15px;
+    border: solid 2px black;
+}
+.contenedor-de-empresas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-empresa{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+/*/RECETAS/*/
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.contenedor-nombre{
+   margin: 35px 30px 0 10px;
+}
+
+.receta-imagen-nombre{
+    display: flex;
+    margin: 20px;
+    border: solid 5px black;
+}
+.receta-imagen-nombre img{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/*/NOSOTROS/*/
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactanos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.texto-nosotros{
+    margin: 5%;
+    padding: 5%;
+    border: black solid 3px;
+}
+.texto-nosotros p{
+    font-size: 30px;
+}
+.btn{
+    border: solid 1px black;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    padding: 15px;
+}
+/*/CONTACTO/*/
+.imagen-fondo-de-sucursales{
+    display: flex;
+    z-index: -1;
+    background-image: url(../img/portada-sucursales.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.imagen-fondo-de-sucursales .contenedor-de-imagen-sucursales h2 {
+
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    color: #fff;
+    font-size: 200%;
+    padding: 1%;
+    background-color: black;
+
+
+}
+.imagen-fondo-de-sucursales .contenedor-de-imagen-sucursales{
+    padding: 200px;
+}
+
+.contenedor-de-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.contenedor-de-formulario h3{
+    margin-top:40px;
+    font-size: 35px;
+}
+.contenedor-de-formulario h5{
+    font-size: 20px;
+}
+.contenedor-de-formulario form{
+    width: 45%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border: solid black 2px;
+}
+form input{
+    margin: 0px 0px 50px 0px;    
+}
+form label{
+    margin: 0px 0px 10px 0px;
+    font-size: 25px;
+}
+.enviar{
+    margin: 20px 50px 0px 50px;
+    padding: 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white
+}
+.contenedor-sucursales{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.contenedor-sucursales ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: #000000 solid 3px;
+    margin: 30px;
+}
+.contenedor-sucursales ul li{
+    font-size: 20px;
+    margin: 10px;
+    padding: 4px;
+    border-left: #000000 solid 2px;
+}
+
+.contenedor-de-mapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/*/HTMLS DE CADA RECETA/*/
+.nombre-de-imagen img{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.contenedor-de-titulo-y-presentacion-de-receta h1{
+    display: inline-block;
+    margin-top: 50px;
+    
+    padding: 10px;
+    border: solid black 2px;
+    font-size: 60px;
+}
+.contenedor-de-titulo-y-presentacion-de-receta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contenedor-imagen-y-calificacion{
+    display: flex;
+    border: solid black 2px;
+    padding-right: 120px;
+    
+
+}
+.calificacion{
+    margin: 10px;
+    margin-top: 100px;
+    margin-left: 20%;
+}
+.contenedor--ingredientes{
+    margin: 20px 2% 20px 2%;
+    font-size: 20px;
+}
+.ingredientes h2{
+    font-size: 30px;
+}
+.contenedor-preparacion{
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+.contenedor-preparacion h2{
+    font-size: 30px;
+}
+.pasos-preparacion{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.pasos-preparacion ol li{
+    margin: 10px;
+    font-size: 20px;
+}

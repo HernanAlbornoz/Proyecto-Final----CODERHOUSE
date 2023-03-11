@@ -1,0 +1,56 @@
+.recetas {
+	margin: 5%;
+}
+
+.contenedor-de-imagen-recetas {
+	height: 20rem;
+	background-image: url(../img/imagen-recetas.jpg);
+	object-fit: cover;
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.card{
+	background: $gradient_recetas;
+}
+.col {
+	transition: 0.5s;
+	a {
+		@include anclas;
+	}
+}
+.col:hover{
+	z-index: 2;
+	transform: scale(1.2,1.2);
+}
+
+.contenedor-de-img-recetas {
+	img {
+		object-fit: cover;
+		padding: 1rem;
+		width: 100%;
+		height: 20rem;
+		
+	}
+
+	p {
+		text-decoration: none;
+		color: $color_texto_recetas_cards;
+	}
+
+	transition: 2s;
+
+	a {
+		&:hover {
+			transform: scale(1.1, 1.1);
+		}
+	}
+}
+
+.titulo-de-receta {
+	font-size: 1.5rem;
+	text-decoration: none;
+	font-family: $font-family_1;
+	font-family: $font-family_2;
+}

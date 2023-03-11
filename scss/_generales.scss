@@ -1,0 +1,51 @@
+html {
+	font-size: 62,5%;
+}
+body {
+	margin: 1rem;
+	background: $gradient-body;
+	object-fit: cover;
+	background-repeat: no-repeat;
+}
+.titulo-principal {
+	display: inline-block;
+	text-align: center;
+	font-family: $font-family_1;
+	font-family: $font-family_2;
+	font-size: 2rem;
+	padding: 1.5rem;
+	border: #000000 solid 3px;
+}
+.logo {
+	font-family: $font-family_1;
+	font-family: $font-family_2;
+	font-size: 2.8rem;
+	text-decoration: none;
+	color: $color_logo;
+	background-color: $fondo-logo;
+}
+.backgrounds-nav {
+	padding: 0;
+	background-color: $fondo-nav;
+	border: #000000 solid 1px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	background-color: $fondo-contenido;
+}
+
+.position-relative {
+	position: relative;
+}
+
+.titulo-nav {
+	position: absolute;
+	top: 35%;
+	left: 5%;
+	color: $color_5;
+	font-size: 200%;
+	padding: 1%;
+	background-color: $fondo_titulo_nav;
+}

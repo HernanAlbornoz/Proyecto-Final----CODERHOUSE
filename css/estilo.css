@@ -1,963 +1,794 @@
-/*/FUENTE/*/
-@import url('https://fonts.googleapis.com/css2?family=Galada&family=Rye&family=Sansita+Swashed:wght@300&display=swap');
-
-/*/FIN DE FUENTE/*/
-/*/GENERALES/*/
-html {
-    font-size: 62, 5%;
-
-}
-
-body {
-    margin: 1rem;
-    background: linear-gradient(to bottom, #f8cdda, #ffdde1);
-    /*/background-image: url(../img/fondo-de-pagina.jpg);/*/
-    object-fit: cover;
-    background-repeat: no-repeat;
-
-}
-
-.titulo-principal {
-    display: inline-block;
-    text-align: center;
-    font-family: 'Galada', cursive;
-    font-family: 'Rye', cursive;
-    font-size: 2rem;
-    padding: 1.5rem;
-    border: #000000 solid 3px;
-
-
-}
-
-/*/FIN DE GENERALES/*/
-/*/NAV/*/
-.logo {
-    font-family: 'Galada', cursive;
-    font-family: 'Rye', cursive;
-    font-size: 2.8rem;
-    text-decoration: none;
-    color: #000000;
-    background-color: #00000000;
-}
-
-.backgrounds-nav {
-    padding: 0;
-    background-color: #f8cdda;
-    border: #000000 solid 1px;
-
-}
-
+@import "https://fonts.googleapis.com/css2?family=Galada&family=Rye&family=Sansita+Swashed:wght@300&display=swap";
 .contenedor-header {
-    padding: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-color: #e0daceb0;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: rgba(224, 218, 206, 0.4549019608);
+}
+.contenedor-header h1 {
+  margin-bottom: 3.5rem;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  font-family: "Galada", cursive;
+  font-family: "Rye", cursive;
+  border: #000000 solid 3px;
+  padding: 1.5rem;
 }
 
 .header {
-    position: sticky;
-    top: 0;
-    z-index: 3;
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
 
 .nav-font {
-    font-family: 'Galada', cursive;
-    font-family: 'Rye', cursive;
-    font-size: 1.2rem;
+  font-family: "Galada", cursive;
+  font-family: "Rye", cursive;
+  font-size: 1.2rem;
 }
 
-/*/FIN DE NAV/*/
-/*/FOOTER/*/
 footer {
-    background-color: #ffdde1;
-
+  background-color: rgba(190, 150, 160, 0.862745098);
 }
 
 .content-footer {
-    padding: 6rem;
-}
-
-.contenedor-copy p {
-    font-size: 1.8rem;
-
+  padding: 6rem;
 }
 
 .contenedor-copy {
-    border-bottom: 1px solid black;
-
+  border-bottom: 1px solid black;
+}
+.contenedor-copy p {
+  font-size: 1.8rem;
 }
 
 .redes {
-    display: inline-block;
-    justify-content: center;
-
+  display: inline-block;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
-
 .redes a {
-    font-family: 'Galada', cursive;
-    font-family: 'Rye', cursive;
-    color: #000000;
-    text-decoration: none;
-    margin: 1.5rem;
-    border-radius: 10%;
-
+  text-decoration: none;
+  color: black;
+  font-family: "Galada", cursive;
+  font-family: "Rye", cursive;
+  color: black;
+  margin: 1.5rem;
+  border-radius: 10%;
 }
-
-.redes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
-
-
 .redes a:hover {
-    border-bottom: #000000 solid 3px;
-}
-
-
-
-
-.links-footers a {
-    text-decoration: none;
-    color: black;
-    font-family: 'Galada', cursive;
-    font-family: 'Rye', cursive;
-}
-
-
-.btn-sucursales {
-    margin-right: 4rem;
+  border-bottom: #000000 solid 3px;
 }
 
 .links-footers {
-    display: flex;
+  display: flex;
 }
-
+.links-footers a {
+  text-decoration: none;
+  color: black;
+  font-family: "Galada", cursive;
+  font-family: "Rye", cursive;
+}
 .links-footers a:hover {
-    border-top: 3px solid black;
+  border-top: 3px solid black;
 }
 
-/*/FIN DE FOOTER/*/
-/*/INDEX/*/
+.btn-sucursales {
+  margin-right: 4rem;
+}
 
 .fondo-video video {
-    position: fixed;
-
-    min-width: 100%;
-    min-height: 100%;
-
-    top: 50%;
-    left: 50%;
-
-    transform: translateX(-50%) translateY(-50%);
-
-    z-index: -2;
-
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -2;
+  filter: grayscale(0.1);
 }
 
 .btn-index {
-    background: #8c0e0ecf;
-    border: #000000 solid black;
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    font-size: 1.2rem;
-    padding: 0.5rem;
-
+  background: rgba(140, 14, 14, 0.8117647059);
+  border: #000000 solid black;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-size: 1.2rem;
+  padding: 0.5rem;
 }
 
 .item-label {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
-
 .content-index {
-    width: 50vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 22rem;
-
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 22rem;
 }
 
 .container-buttons {
-    display: flex;
-    justify-content: space-around;
-
+  display: flex;
+  justify-content: space-around;
 }
 
 .header-content {
-    display: flex;
-    justify-content: center;
-    padding: 3rem;
-    border: #000000 solid 3px;
-    background-color: rgba(255, 244, 196, 0.883);
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  border: #000000 solid 3px;
+  background-color: rgba(255, 244, 196, 0.883);
 }
 
 .texto-index {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
-
 .texto-index p {
-    padding-left: 0.5rem;
-    font-size: 1.5rem;
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
 }
-
 .texto-index h4 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
-/*/FIN DE INDEX/*/
-/*/INICIO/*/
 .carousel-item h5 {
-    display: inline-block;
-    padding: 1rem;
-    background-color: #292929af;
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 1rem;
+  background-color: rgba(41, 41, 41, 0.6862745098);
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
 }
-
 .carousel-item img {
-    object-fit: cover;
-    margin-bottom: 3rem;
-
+  object-fit: cover;
+  margin-bottom: 3rem;
+}
+.carousel-item p {
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
 }
 
 .carousel-img {
-    object-fit: cover;
-}
-
-.carousel-item p {
-    font-size: 1rem;
-    color: rgb(255, 255, 255);
+  object-fit: cover;
 }
 
 .carousel-content {
-    padding-bottom: 3rem;
-    padding: 2rem;
-    border: solid black 3px;
-}
-
-.contenedor-header h1 {
-    margin-bottom: 3.5rem;
-    margin-top: 2rem;
-    font-size: 2.5rem;
-    font-family: 'Galada', cursive;
-    font-family: 'Rye', cursive;
-    border: #000000 solid 3px;
-    padding: 1.5rem;
-}
-
-.titulo-nav {
-
-    position: absolute;
-    top: 35%;
-    left: 5%;
-    color: #fff;
-    font-size: 200%;
-    padding: 1%;
-    background-color: black;
+  padding-bottom: 3rem;
+  padding: 2rem;
+  border: solid black 3px;
 }
 
 .contenedor-de-imagen-inicio {
-    height: 20rem;
-    background-image: url(../img/imagen-inicio.jpg);
-    object-fit: cover;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-
-}
-
-.position-relative {
-    position: relative;
-}
-
-.empresas h2 {
-    font-size: 1.5rem;
-    padding: 1rem;
-    background-color: #e0daceb0;
-    border: solid 2px black;
+  height: 20rem;
+  background-image: url(../img/imagen-inicio.jpg);
+  object-fit: cover;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .empresas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.empresas h2 {
+  font-size: 1.5rem;
+  padding: 1rem;
+  background-color: rgba(224, 218, 206, 0.4549019608);
+  border: solid 2px black;
 }
 
 .contenedor-de-empresas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .img-empresa {
-    margin-top: 40px;
-    margin-left: 30px;
-    margin-bottom: 40px;
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
 }
 
-/*/FIN DE INICIO/*/
-/*/NOSOTROS/*/
 .contenedor-de-imagen-nosotros {
-    height: 20rem;
-    background-image: url(../img/imagen-nosotros.jpg);
-    object-fit: cover;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    background-color: #e0daceb0;
+  height: 20rem;
+  background-image: url(../img/imagen-nosotros.jpg);
+  object-fit: cover;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .contactanos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 3rem;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
 }
-
 .contactanos h3 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
-
 .contactanos h2 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .btn-contact {
-    color: black;
-    background-color: #5f9764d2;
+  color: black;
+  background-color: rgba(95, 151, 100, 0.8235294118);
 }
 
 .button-content {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .texto-nosotros {
-    margin: 5%;
-    padding: 5%;
-    border: black solid 3px;
+  margin: 5%;
+  padding: 5%;
+  border: black solid 3px;
 }
-
 .texto-nosotros p {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
-/*/FIN DE NOSOTROS/*/
-/*/CONTACTO/*/
 .contenedor-de-imagen-contacto {
-    height: 20rem;
-    background-image: url(../img/imagen-contacto.jpg);
-    object-fit: cover;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
+  height: 20rem;
+  background-image: url(../img/imagen-contacto.jpg);
+  object-fit: cover;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .contenedor-de-formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #e0daceb0;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(224, 218, 206, 0.4549019608);
 }
-
 .contenedor-de-formulario h3 {
-    margin: 1rem;
-    margin-top: 4rem;
-    font-size: 2.5rem;
-    font-family: 'Galada', cursive;
-    font-family: 'Rye', cursive;
+  margin: 1rem;
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  font-family: "Galada", cursive;
+  font-family: "Rye", cursive;
 }
-
 .contenedor-de-formulario h5 {
-    text-align: center;
-    margin: 1rem;
-    font-size: 2rem;
+  text-align: center;
+  margin: 1rem;
+  font-size: 2rem;
 }
-
-
 .contenedor-de-formulario form {
-    width: 80%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    padding: 5rem;
-    border: solid black 3px;
-    border-radius: 10%;
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 5rem;
+  border: solid black 3px;
+  border-radius: 10%;
 }
 
 form input {
-    margin: 0rem 0rem 5rem 0rem;
-    background-color: #e0daceb0;
-    border: solid black 2px;
-    font-size: 1.5rem;
+  margin: 0rem 0rem 5rem 0rem;
+  background-color: rgba(224, 218, 206, 0.4549019608);
+  border: solid black 2px;
+  font-size: 1.5rem;
 }
-
 form textarea {
-    background-color: #e0daceb0;
-    border: solid black 2px;
-
+  background-color: rgba(224, 218, 206, 0.4549019608);
+  border: solid black 2px;
+}
+form textarea::placeholder {
+  font-size: 1.5rem;
+}
+form label {
+  margin: 0rem 0rem 1rem 0rem;
+  font-size: 2.5rem;
 }
 
 textarea {
-    max-width: 100rem;
-    max-height: 50rem;
-}
-
-form textarea::placeholder {
-    font-size: 1.5rem;
-}
-
-form label {
-    margin: 0rem 0rem 1rem 0rem;
-    font-size: 2.5rem;
+  max-width: 100rem;
+  max-height: 50rem;
 }
 
 .enviar {
-    margin: 2rem 5rem 0rem 5rem;
-    padding: 2rem;
+  margin: 2rem 5rem 0rem 5rem;
+  padding: 2rem;
 }
 
-/*/FIN DE CONTACTO/*/
-
-/*/RECETAS/*/
 .contenedor-titulo {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-.contenedor-img-recetas img {
-    object-fit: cover;
-    width: 100%;
-    height: 20rem;
-    box-shadow: 0px 0px 3px 1px black;
-
-}
-
-.item-recetas h3 {
-    font-family: 'Galada', cursive;
-    font-family: 'Rye', cursive;
-    color: rgb(251, 220, 220);
-
-}
-
-.contenedor-de-imagen-recetas {
-    height: 20rem;
-    background-image: url(../img/imagen-recetas.jpg);
-    object-fit: cover;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
-
-.texto-recetas {
-    display: inline-block;
-    color: #000000;
-    background-color: #efd9d9;
-    font-size: 3rem;
-}
-
-.item-recetas {
-    padding: 1.5em;
-    margin-bottom: 2rem;
-    background-color: #9e6575;
-    border: #000000 solid 4p;
-}
-
-.item-recetas a {
-    text-decoration: none;
-}
-
-.item-recetas:hover {
-    transform: scale(1.1, 1.1);
-    transition: 0.2s;
-    box-shadow: 0px 0px 0px 0px black;
-}
-
-/*/FIN DE RECETAS/*/
-/*/HTML DE LAS RECETAS INVIDUALES/*/
-.nombre-de-imagen img {
-    margin-top: 4rem;
-    margin-left: 3rem;
-    margin-bottom: 4rem;
-    width: 30rem;
-    height: 20rem;
-    object-fit: cover;
-}
-
-.contenedor-de-titulo-y-presentacion-de-receta h1 {
-    display: inline-block;
-    margin-top: 5rem;
-
-    padding: 1rem;
-    border: solid black 2px;
-    font-size: 6rem;
-}
-
-.contenedor-de-titulo-y-presentacion-de-receta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contendor-receta-individual {
-    background-color: #c4b9b9a3;
-}
-
-.contenedor-imagen-y-calificacion {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    border: solid black 2px;
-}
-
-.calificacion {
-    margin-left: 8rem;
-}
-
-.calificacion h3 {
-    font-size: 3rem;
-    font-family: 'Galada', cursive;
-    font-family: 'Rye', cursive;
-
-}
-
-.contenedor--ingredientes {
-    margin: 2rem 2% 2rem 2%;
-    font-size: 2rem;
-}
-
-.ingredientes h2 {
-    font-family: 'Galada', cursive;
-    font-family: 'Rye', cursive;
-    font-size: 2.5rem;
-}
-
-.contenedor-preparacion {
-    margin: 1rem;
-    margin-top: 2rem;
-    margin-left: 2%;
-}
-
-.contenedor-preparacion h2 {
-    font-family: 'Galada', cursive;
-    font-family: 'Rye', cursive;
-    font-size: 2.5rem;
-}
-
-.pasos-preparacion {
-    display: flex;
-    flex-direction: column;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    padding-bottom: 5rem;
-}
-
-.pasos-preparacion ol li {
-    margin: 1rem;
-    font-size: 2rem;
-}
-
-/*/FIN DE RECETAS INDIVIDUALES/*/
-/*/SUCURSALES/*/
 .contenedor-sucursales {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-
 .contenedor-sucursales ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border: #000000 solid 3px;
-    margin: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: #000000 solid 3px;
+  margin: 3rem;
 }
-
 .contenedor-sucursales ul li {
-    font-size: 2rem;
-    margin: 1rem;
-    padding: 0.4rem;
-    border-left: #000000 solid 2px;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 0.4rem;
+  border-left: #000000 solid 2px;
 }
 
 .contenedor-de-mapa {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .contenedor-de-imagen-sucursales {
-    height: 20rem;
-    background-image: url(../img/imagen-sucursales.jpg);
-    object-fit: cover;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
+  height: 20rem;
+  background-image: url(../img/imagen-sucursales.jpg);
+  object-fit: cover;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .sucursales {
-    display: inline-block;
-    background-color: #e0daceb0;
-    justify-content: center;
-    padding: 5rem;
+  display: inline-block;
+  background-color: rgba(224, 218, 206, 0.4549019608);
+  justify-content: center;
+  padding: 5rem;
 }
-
 .sucursales iframe {
-    width: 100%;
-    height: 30rem;
-    margin-top: 3.8rem;
-    margin-bottom: 3rem;
-    border: solid black 3px;
-    border-radius: 5%;
-
+  width: 100%;
+  height: 30rem;
+  margin-top: 3.8rem;
+  margin-bottom: 3rem;
+  border: solid black 3px;
+  border-radius: 5%;
 }
 
 .sucursales-ubicaciones {
-    padding: 1.5rem;
-    border: solid black 3px;
-    border-radius: 5%;
+  padding: 1.5rem;
+  border: solid black 3px;
+  border-radius: 5%;
 }
-
 .sucursales-ubicaciones h2 {
-    text-align: center;
-    margin-top: 3rem;
-    font-size: 2.5rem;
-    font-family: 'Galada', cursive;
-    font-family: 'Rye', cursive;
-
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  font-family: "Galada", cursive;
+  font-family: "Rye", cursive;
 }
 
 .item-sucursales {
-    font-size: 1.4rem;
-    margin: 2rem;
+  font-size: 1.4rem;
+  margin: 2rem;
+  list-style: circle;
+  border-bottom: #000000 solid 3px;
+  font-family: "Galada", cursive;
+  font-family: "Rye", cursive;
+}
+
+.nombre-de-imagen img {
+  margin-top: 4rem;
+  margin-left: 3rem;
+  margin-bottom: 4rem;
+  width: 30rem;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.contenedor-de-titulo-y-presentacion-de-receta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedor-de-titulo-y-presentacion-de-receta h1 {
+  display: flex;
+  margin-top: 5rem;
+  padding: 1rem;
+  border: solid black 2px;
+  font-size: 6rem;
+}
+
+.contendor-receta-individual {
+  background-color: rgba(197, 154, 154, 0.6392156863);
+}
+
+.contenedor-imagen-y-calificacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: solid black 2px;
+}
+
+.calificacion {
+  margin-left: 8rem;
+}
+.calificacion h3 {
+  font-size: 3rem;
+  font-family: "Galada", cursive;
+  font-family: "Rye", cursive;
+}
+
+.contenedor--ingredientes {
+  margin: 2rem 2% 2rem 2%;
+  font-size: 2rem;
+}
+
+.ingredientes h2 {
+  font-family: "Galada", cursive;
+  font-family: "Rye", cursive;
+  font-size: 2.5rem;
+}
+
+.contenedor-preparacion {
+  margin: 1rem;
+  margin-top: 2rem;
+  margin-left: 2%;
+}
+.contenedor-preparacion h2 {
+  font-family: "Galada", cursive;
+  font-family: "Rye", cursive;
+  font-size: 2.5rem;
+}
+
+.pasos-preparacion {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-bottom: 5rem;
+}
+.pasos-preparacion ol li {
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.recetas {
+  margin: 5%;
+}
+
+.contenedor-de-imagen-recetas {
+  height: 20rem;
+  background-image: url(../img/imagen-recetas.jpg);
+  object-fit: cover;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.card {
+  background: linear-gradient(rgb(255, 255, 255), #f1f1f1);
+}
+
+.col {
+  transition: 0.5s;
+}
+.col a {
+  text-decoration: none;
+  color: black;
+}
+
+.col:hover {
+  z-index: 2;
+  transform: scale(1.2, 1.2);
+}
+
+.contenedor-de-img-recetas {
+  transition: 2s;
+}
+.contenedor-de-img-recetas img {
+  object-fit: cover;
+  padding: 1rem;
+  width: 100%;
+  height: 20rem;
+}
+.contenedor-de-img-recetas p {
+  text-decoration: none;
+  color: black;
+}
+.contenedor-de-img-recetas a:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.titulo-de-receta {
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: "Galada", cursive;
+  font-family: "Rye", cursive;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  margin: 1rem;
+  background: linear-gradient(to bottom, #f4e2d8, #ba5370);
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.titulo-principal {
+  display: inline-block;
+  text-align: center;
+  font-family: "Galada", cursive;
+  font-family: "Rye", cursive;
+  font-size: 2rem;
+  padding: 1.5rem;
+  border: #000000 solid 3px;
+}
+
+.logo {
+  font-family: "Galada", cursive;
+  font-family: "Rye", cursive;
+  font-size: 2.8rem;
+  text-decoration: none;
+  color: #000000;
+  background-color: rgba(244, 226, 216, 0);
+}
+
+.backgrounds-nav {
+  padding: 0;
+  background-color: #f4e2d8;
+  border: #000000 solid 1px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(224, 218, 206, 0.4549019608);
+}
+
+.position-relative {
+  position: relative;
+}
+
+.titulo-nav {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  color: #fff;
+  font-size: 200%;
+  padding: 1%;
+  background-color: black;
+}
+
+@media (max-width: 600px) {
+  .container-buttons {
+    display: inline-block;
+  }
+  .btn-index {
+    margin-top: 0.5rem;
+  }
+  .content-index {
+    margin-top: 12rem;
+  }
+  .contenedor-de-formulario form {
+    width: 20rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 4rem 1rem 4rem;
+  }
+  .contenedor-de-formulario h3 {
+    font-size: 1rem;
+  }
+  .contenedor-de-formulario h5 {
+    font-size: 0.9rem;
+  }
+  form input {
+    font-size: 1rem;
+  }
+  form label {
+    font-size: 1rem;
+  }
+  form textarea::placeholder {
+    font-size: 1rem;
+  }
+  .enviar {
+    padding: 1rem;
+  }
+  .texto-nosotros p {
+    font-size: 0.8rem;
+  }
+  .contactanos h3 {
+    font-size: 0.8rem;
+  }
+  .contactanos h2 {
+    font-size: 0.8rem;
+  }
+  .item-sucursales {
+    font-size: 0.9rem;
+    margin: 1rem;
     list-style: circle;
     border-bottom: #000000 solid 3px;
-    font-family: 'Galada', cursive;
-    font-family: 'Rye', cursive;
-
+    font-family: "Galada", cursive;
+    font-family: "Rye", cursive;
+  }
+  .sucursales-ubicaciones {
+    padding: 0.5rem;
+    border: solid black 3px;
+    border-radius: 5%;
+  }
+  .sucursales-ubicaciones h2 {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-family: "Galada", cursive;
+    font-family: "Rye", cursive;
+  }
+  .sucursales {
+    padding: 1rem;
+  }
+  .content-footer {
+    padding: 6rem;
+    padding: 3rem;
+  }
+  .contenedor-copy {
+    border-bottom: 1px solid black;
+  }
+  .contenedor-copy p {
+    font-size: 1.8rem;
+    font-size: 1rem;
+  }
+  .contenedor-copy h3 {
+    font-size: 1.5;
+  }
+  .links-footers {
+    display: flex;
+    flex-direction: column;
+  }
+  .links-footers a {
+    margin-bottom: 1.5rem;
+  }
+  .redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .redes a {
+    text-decoration: none;
+    color: black;
+    margin: 0rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-family: "Galada", cursive;
+    font-family: "Rye", cursive;
+  }
+  .redes a:hover {
+    border-bottom: #000000 solid 3px;
+  }
+  .contenedor-imagen-y-calificacion {
+    display: flex;
+    flex-direction: column;
+    border: #000000 solid 0px;
+  }
+  .calificacion {
+    margin-left: 0rem;
+    margin: 1rem;
+  }
+  .calificacion h3 {
+    font-size: 1.5rem;
+  }
+  .contenedor-de-titulo-y-presentacion-de-receta h1 {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: solid black 0px;
+    font-size: 2.5rem;
+  }
+  .nombre-de-imagen img {
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+    width: 15rem;
+    height: 10rem;
+    object-fit: cover;
+  }
+  .ingredientes {
+    font-size: 1rem;
+  }
+  .ingredientes h2 {
+    font-size: 2rem;
+  }
+  .contenedor-preparacion h2 {
+    font-size: 2rem;
+  }
+  .pasos-preparacion {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-bottom: 5rem;
+  }
+  .pasos-preparacion ol li {
+    font-size: 1rem;
+  }
+  .contenedor-de-img-recetas img {
+    object-fit: cover;
+    padding: 1rem;
+    width: 100%;
+    height: 20rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 1800px) {
+  .container-buttons {
+    display: inline-block;
+  }
+  .btn-index {
+    margin-top: 0.5rem;
+  }
+  .item-label {
+    font-size: 1.5rem;
+  }
+  .contenedor-imagen-y-calificacion {
+    display: flex;
+    flex-direction: column;
+    border: #000000 solid 0px;
+  }
+  .calificacion {
+    margin-left: 0rem;
+    margin: 1rem;
+  }
+  .calificacion h3 {
+    font-size: 2rem;
+  }
+  .contenedor-de-titulo-y-presentacion-de-receta h1 {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: solid black 0px;
+    font-size: 3rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 1200px) {
+  .contenedor-de-img-recetas img {
+    object-fit: cover;
+    padding: 1rem;
+    width: 100%;
+    height: 10rem;
+  }
+  .titulo-de-receta {
+    font-size: 1rem;
+  }
 }
 
-/*/FIN DE SUCURSALES/*/
-/*/MEDIA/*/
-@media (max-width:600px) {
-
-    /*/INDEX/*/
-    .container-buttons {
-        display: inline-block;
-    }
-
-    .btn-index {
-        margin-top: 0.5rem;
-    }
-
-    .content-index {
-        margin-top: 12rem;
-
-    }
-
-    /*/FIN DE INDEX/*/
-    /*/CONTACTO/*/
-    .contenedor-de-formulario form {
-        width: 20rem;
-        height: 35rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        padding: 1rem 4rem 1rem 4rem;
-    }
-
-    form input {
-        font-size: 1rem;
-    }
-
-
-    form label {
-        font-size: 1rem;
-    }
-
-    .enviar {
-        padding: 1rem;
-    }
-
-    .contenedor-de-formulario h3 {
-        font-size: 1rem;
-    }
-
-    .contenedor-de-formulario h5 {
-        font-size: 0.9rem;
-    }
-
-    form textarea::placeholder {
-        font-size: 1rem;
-    }
-
-    /*/FIN DE CONTACTO/*/
-    /*/NOSOTROS/*/
-    .texto-nosotros p {
-        font-size: 1.3rem;
-    }
-
-    .contactanos h3 {
-        font-size: 1rem;
-    }
-
-    .contactanos h2 {
-        font-size: 1rem;
-    }
-
-    /*/FIN DE NOSOTROS/*/
-    /*/SUCURSALES/*/
-
-    .item-sucursales {
-        font-size: 0.9rem;
-        margin: 1rem;
-        list-style: circle;
-        border-bottom: #000000 solid 3px;
-        font-family: 'Galada', cursive;
-        font-family: 'Rye', cursive;
-
-    }
-
-    .sucursales-ubicaciones {
-        padding: 0.5rem;
-        border: solid black 3px;
-        border-radius: 5%;
-    }
-
-    .sucursales-ubicaciones h2 {
-        text-align: center;
-        margin-top: 1rem;
-        font-size: 1rem;
-        font-family: 'Galada', cursive;
-        font-family: 'Rye', cursive;
-
-    }
-
-    .sucursales {
-        padding: 1rem;
-    }
-
-    /*/FIN DE SUCURSALES/*/
-    /*/FOOTER/*/
-
-    footer {
-        background-color: #ccc6b9;
-
-    }
-
-    .content-footer {
-        padding: 6rem;
-    }
-
-    .contenedor-copy p {
-        font-size: 1.8rem;
-
-    }
-
-    .contenedor-copy {
-        border-bottom: 1px solid black;
-
-    }
-
-    .contenedor-copy h3 {
-        font-size: 1.5;
-    }
-
-    .links-footers {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .links-footers a {
-        margin-bottom: 1.5rem;
-    }
-
-    .redes {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-bottom: 2rem;
-        margin-top: 2rem;
-    }
-
-    .redes a {
-        text-decoration: none;
-        color: black;
-        margin: 0rem;
-        margin-top: 2rem;
-        font-size: 1rem;
-        font-family: 'Galada', cursive;
-        font-family: 'Rye', cursive;
-
-    }
-
-    .redes a:hover {
-        border-bottom: #000000 solid 3px;
-    }
-
-    .contenedor-copy p {
-        font-size: 1rem;
-
-    }
-
-    .content-footer {
-        padding: 3rem;
-    }
-
-    /*/FIN DE FOOTER/*/
-    /*/RECETAS INDIVIDUALES/*/
-    .contenedor-imagen-y-calificacion {
-        display: flex;
-        flex-direction: column;
-        border: #000000 solid 0px;
-    }
-
-    .calificacion {
-        margin-left: 0rem;
-        margin: 1rem;
-    }
-
-    .calificacion h3 {
-        font-size: 1.5rem;
-    }
-
-    .contenedor-de-titulo-y-presentacion-de-receta h1 {
-        margin-top: 2rem;
-        padding: 1rem;
-        border: solid black 0px;
-        font-size: 2.5rem;
-    }
-
-    .nombre-de-imagen img {
-        margin-top: 0rem;
-        margin-left: 0rem;
-        margin-bottom: 0rem;
-        width: 15rem;
-        height: 10rem;
-        object-fit: cover;
-    }
-
-    .ingredientes h2 {
-        font-size: 2rem;
-    }
-
-    .ingredientes {
-        font-size: 1rem;
-    }
-
-    .contenedor-preparacion h2 {
-        font-size: 2rem;
-    }
-
-    .pasos-preparacion ol li {
-        font-size: 1rem;
-    }
-
-    .pasos-preparacion {
-        display: flex;
-        flex-direction: column;
-        margin-left: 0rem;
-        margin-right: 0rem;
-        padding-bottom: 5rem;
-    }
-
-
-    /*/FIN DE RECETAS INDIVIDUALES/*/
-    /*/RECETAS/*/
-    .item-recetas {
-        align-items: center;
-        width: 20rem;
-        height: 15rem;
-    }
-
-    .contenedor-img-recetas img {
-        object-fit: cover;
-        width: 18rem;
-        height: 10rem;
-
-    }
-
-}
-
-@media (min-width:600px) and (max-width:1800px) {
-    .container-buttons {
-        display: inline-block;
-    }
-
-    .btn-index {
-        margin-top: 0.5rem;
-    }
-
-    .item-label {
-        font-size: 1.5rem;
-    }
-
-    /*/RECETAS INDIVIDUALES/*/
-    .contenedor-imagen-y-calificacion {
-        display: flex;
-        flex-direction: column;
-        border: #000000 solid 0px;
-    }
-
-    .calificacion {
-        margin-left: 0rem;
-        margin: 1rem;
-    }
-
-    .calificacion h3 {
-        font-size: 2rem;
-    }
-
-    .contenedor-de-titulo-y-presentacion-de-receta h1 {
-        margin-top: 2rem;
-        padding: 1rem;
-        border: solid black 0px;
-        font-size: 3rem;
-    }
-
-    /*/FIN DE RECETAS INDIVIDUALES/*/
-
-}
-
-/*/FIN DE MEDIA/*/
-/*/pruebas/*/
+/*# sourceMappingURL=estilo.css.map */

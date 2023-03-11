@@ -1,0 +1,76 @@
+
+
+.nombre-de-imagen {
+	img {
+		margin-top: 4rem;
+		margin-left: 3rem;
+		margin-bottom: 4rem;
+		width: 30rem;
+		height: 20rem;
+		object-fit: cover;
+	}
+}
+.contenedor-de-titulo-y-presentacion-de-receta {
+	h1 {
+		display: flex;
+		margin-top: 5rem;
+		padding: 1rem;
+		border: solid black 2px;
+		font-size: 6rem;
+	}
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contendor-receta-individual {
+	background-color: $fondo_contenido_recetas_individuales;
+}
+.contenedor-imagen-y-calificacion {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	border: solid black 2px;
+}
+.calificacion {
+	margin-left: 8rem;
+	h3 {
+		font-size: 3rem;
+		font-family: $font-family_1;
+		font-family: $font-family_2;
+	}
+}
+.contenedor--ingredientes {
+	margin: 2rem 2% 2rem 2%;
+	font-size: 2rem;
+}
+.ingredientes {
+	h2 {
+		font-family: $font-family_1;
+		font-family: $font-family_2;
+		font-size: 2.5rem;
+	}
+}
+.contenedor-preparacion {
+	margin: 1rem;
+	margin-top: 2rem;
+	margin-left: 2%;
+	h2 {
+		font-family: $font-family_1;
+		font-family: $font-family_2;
+		font-size: 2.5rem;
+	}
+}
+.pasos-preparacion {
+	display: flex;
+	flex-direction: column;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	padding-bottom: 5rem;
+	ol {
+		li {
+			margin: 1rem;
+			font-size: 2rem;
+		}
+	}
+}

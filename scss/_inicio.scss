@@ -1,0 +1,69 @@
+
+.carousel-item {
+	h5 {
+		display: inline-block;
+		padding: 1rem;
+		background-color: $fondo-titulo-carousel;
+		font-size: 2rem;
+		color: $color_4;
+	}
+	img {
+		object-fit: cover;
+		margin-bottom: 3rem;
+	}
+	p {
+		font-size: 1rem;
+		color: $color_4;
+	}
+}
+.carousel-img {
+	object-fit: cover;
+}
+.carousel-content {
+	padding-bottom: 3rem;
+	padding: 2rem;
+	border: solid black 3px;
+}
+.contenedor-de-imagen-inicio {
+	height: 20rem;
+	background-image: url(../img/imagen-inicio.jpg);
+	object-fit: cover;
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+.empresas {
+	h2 {
+		font-size: 1.5rem;
+		padding: 1rem;
+		background-color: $fondo-contenido;
+		border: solid 2px black;
+	}
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.contenedor-de-empresas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.img-empresa {
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-bottom: 40px;
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+}
+.contenedor-de-imagen-nosotros {
+	height: 20rem;
+	background-image: url(../img/imagen-nosotros.jpg);
+	object-fit: cover;
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}

@@ -1,4 +1,8 @@
+/*MIXIN*/
+/*VARIABLES*/
+/*FUENTES*/
 @import "https://fonts.googleapis.com/css2?family=Galada&family=Rye&family=Sansita+Swashed:wght@300&display=swap";
+/*HEADER*/
 .contenedor-header {
   padding: 3rem;
   display: flex;
@@ -30,6 +34,7 @@
   font-size: 1.2rem;
 }
 
+/*FOOTER*/
 footer {
   background-color: rgba(190, 150, 160, 0.862745098);
 }
@@ -84,6 +89,7 @@ footer {
   margin-right: 4rem;
 }
 
+/*INDEX*/
 .fondo-video video {
   position: fixed;
   min-width: 100%;
@@ -143,6 +149,7 @@ footer {
   font-size: 1.5rem;
 }
 
+/*INICIO*/
 .carousel-item h5 {
   display: inline-block;
   padding: 1rem;
@@ -217,6 +224,7 @@ footer {
   background-position: 50%;
 }
 
+/*CONTACTO*/
 .contactanos {
   display: flex;
   flex-direction: column;
@@ -327,6 +335,7 @@ textarea {
   position: relative;
 }
 
+/*SUCURSALES*/
 .contenedor-sucursales {
   display: flex;
   flex-direction: row;
@@ -400,6 +409,7 @@ textarea {
   font-family: "Rye", cursive;
 }
 
+/*RECETAS-INDIVIDUALES*/
 .nombre-de-imagen img {
   margin-top: 4rem;
   margin-left: 3rem;
@@ -477,6 +487,7 @@ textarea {
   font-size: 2rem;
 }
 
+/*RECETAS*/
 .recetas {
   margin: 5%;
 }
@@ -532,6 +543,7 @@ textarea {
   font-family: "Rye", cursive;
 }
 
+/*GENERALES*/
 html {
   font-size: 62, 5%;
 }
@@ -588,6 +600,7 @@ body {
   background-color: black;
 }
 
+/*MEDIA*/
 @media (max-width: 600px) {
   .container-buttons {
     display: inline-block;
